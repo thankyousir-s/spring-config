@@ -23,4 +23,10 @@ ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
   MaxAutoRetriesNextServer: 1
-  MaxAutoRetries: 1
+  MaxAutoRetries: 2
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
