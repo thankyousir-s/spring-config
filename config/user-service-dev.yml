@@ -28,4 +28,4 @@ management:
         include: refresh
         
 env:
-  dev
+  beat
